@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD9DEEA1BCEAF630002A74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DEE91BCEAF630002A74B /* main.m */; };
+		AAD9DEED1BCEAF630002A74B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DEEC1BCEAF630002A74B /* AppDelegate.m */; };
+		AAD9DEF01BCEAF630002A74B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DEEF1BCEAF630002A74B /* ViewController.m */; };
+		AAD9DEF31BCEAF630002A74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD9DEF11BCEAF630002A74B /* Main.storyboard */; };
+		AAD9DEF51BCEAF630002A74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD9DEF41BCEAF630002A74B /* Images.xcassets */; };
+		AAD9DEF81BCEAF630002A74B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD9DEF61BCEAF630002A74B /* LaunchScreen.xib */; };
+		AAD9DF041BCEAF640002A74B /* AFNLocalizationIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DF031BCEAF640002A74B /* AFNLocalizationIssueTests.m */; };
+		AAD9DF0F1BCEB2500002A74B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAD9DF111BCEB2500002A74B /* Localizable.strings */; };
+		AC13C335286F64301706A258 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A3B38098BA2B7933D463B3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD9DEFE1BCEAF640002A74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD9DEDC1BCEAF630002A74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD9DEE31BCEAF630002A74B;
+			remoteInfo = AFNLocalizationIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BFF4CB989C6A7DE5F265839 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		74DD77F5599A1ABABD412404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A3A3B38098BA2B7933D463B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD9DEE41BCEAF630002A74B /* AFNLocalizationIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNLocalizationIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD9DEE81BCEAF630002A74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD9DEE91BCEAF630002A74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD9DEEB1BCEAF630002A74B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAD9DEEC1BCEAF630002A74B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAD9DEEE1BCEAF630002A74B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAD9DEEF1BCEAF630002A74B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAD9DEF21BCEAF630002A74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD9DEF41BCEAF630002A74B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAD9DEF71BCEAF630002A74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAD9DEFD1BCEAF640002A74B /* AFNLocalizationIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNLocalizationIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD9DF021BCEAF640002A74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD9DF031BCEAF640002A74B /* AFNLocalizationIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNLocalizationIssueTests.m; sourceTree = "<group>"; };
+		AAD9DF101BCEB2500002A74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAD9DF121BCEB29D0002A74B /* es-US */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-US"; path = "es-US.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AAD9DF131BCEB2A60002A74B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD9DEE11BCEAF630002A74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13C335286F64301706A258 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD9DEFA1BCEAF640002A74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D5B4F3400B44F1DE8C0E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A3B38098BA2B7933D463B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD436E07BB454D4D2BA5F7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF4CB989C6A7DE5F265839 /* Pods.debug.xcconfig */,
+				74DD77F5599A1ABABD412404 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAD9DEDB1BCEAF630002A74B = {
+			isa = PBXGroup;
+			children = (
+				AAD9DEE61BCEAF630002A74B /* AFNLocalizationIssue */,
+				AAD9DF001BCEAF640002A74B /* AFNLocalizationIssueTests */,
+				AAD9DEE51BCEAF630002A74B /* Products */,
+				6AD436E07BB454D4D2BA5F7E /* Pods */,
+				30D5B4F3400B44F1DE8C0E7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD9DEE51BCEAF630002A74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD9DEE41BCEAF630002A74B /* AFNLocalizationIssue.app */,
+				AAD9DEFD1BCEAF640002A74B /* AFNLocalizationIssueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD9DEE61BCEAF630002A74B /* AFNLocalizationIssue */ = {
+			isa = PBXGroup;
+			children = (
+				AAD9DEEB1BCEAF630002A74B /* AppDelegate.h */,
+				AAD9DEEC1BCEAF630002A74B /* AppDelegate.m */,
+				AAD9DEEE1BCEAF630002A74B /* ViewController.h */,
+				AAD9DEEF1BCEAF630002A74B /* ViewController.m */,
+				AAD9DEF11BCEAF630002A74B /* Main.storyboard */,
+				AAD9DEF41BCEAF630002A74B /* Images.xcassets */,
+				AAD9DEF61BCEAF630002A74B /* LaunchScreen.xib */,
+				AAD9DEE71BCEAF630002A74B /* Supporting Files */,
+			);
+			path = AFNLocalizationIssue;
+			sourceTree = "<group>";
+		};
+		AAD9DEE71BCEAF630002A74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD9DEE81BCEAF630002A74B /* Info.plist */,
+				AAD9DEE91BCEAF630002A74B /* main.m */,
+				AAD9DF111BCEB2500002A74B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD9DF001BCEAF640002A74B /* AFNLocalizationIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD9DF031BCEAF640002A74B /* AFNLocalizationIssueTests.m */,
+				AAD9DF011BCEAF640002A74B /* Supporting Files */,
+			);
+			path = AFNLocalizationIssueTests;
+			sourceTree = "<group>";
+		};
+		AAD9DF011BCEAF640002A74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD9DF021BCEAF640002A74B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD9DEE31BCEAF630002A74B /* AFNLocalizationIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD9DF071BCEAF640002A74B /* Build configuration list for PBXNativeTarget "AFNLocalizationIssue" */;
+			buildPhases = (
+				30739ACEF430200BF320CD3B /* Check Pods Manifest.lock */,
+				AAD9DEE01BCEAF630002A74B /* Sources */,
+				AAD9DEE11BCEAF630002A74B /* Frameworks */,
+				AAD9DEE21BCEAF630002A74B /* Resources */,
+				2436245E4B9C4E41640691AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNLocalizationIssue;
+			productName = AFNLocalizationIssue;
+			productReference = AAD9DEE41BCEAF630002A74B /* AFNLocalizationIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD9DEFC1BCEAF640002A74B /* AFNLocalizationIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD9DF0A1BCEAF640002A74B /* Build configuration list for PBXNativeTarget "AFNLocalizationIssueTests" */;
+			buildPhases = (
+				AAD9DEF91BCEAF640002A74B /* Sources */,
+				AAD9DEFA1BCEAF640002A74B /* Frameworks */,
+				AAD9DEFB1BCEAF640002A74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD9DEFF1BCEAF640002A74B /* PBXTargetDependency */,
+			);
+			name = AFNLocalizationIssueTests;
+			productName = AFNLocalizationIssueTests;
+			productReference = AAD9DEFD1BCEAF640002A74B /* AFNLocalizationIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD9DEDC1BCEAF630002A74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					AAD9DEE31BCEAF630002A74B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AAD9DEFC1BCEAF640002A74B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AAD9DEE31BCEAF630002A74B;
+					};
+				};
+			};
+			buildConfigurationList = AAD9DEDF1BCEAF630002A74B /* Build configuration list for PBXProject "AFNLocalizationIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-US",
+				es,
+			);
+			mainGroup = AAD9DEDB1BCEAF630002A74B;
+			productRefGroup = AAD9DEE51BCEAF630002A74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD9DEE31BCEAF630002A74B /* AFNLocalizationIssue */,
+				AAD9DEFC1BCEAF640002A74B /* AFNLocalizationIssueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD9DEE21BCEAF630002A74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD9DEF31BCEAF630002A74B /* Main.storyboard in Resources */,
+				AAD9DF0F1BCEB2500002A74B /* Localizable.strings in Resources */,
+				AAD9DEF81BCEAF630002A74B /* LaunchScreen.xib in Resources */,
+				AAD9DEF51BCEAF630002A74B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD9DEFB1BCEAF640002A74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2436245E4B9C4E41640691AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30739ACEF430200BF320CD3B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD9DEE01BCEAF630002A74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD9DEF01BCEAF630002A74B /* ViewController.m in Sources */,
+				AAD9DEED1BCEAF630002A74B /* AppDelegate.m in Sources */,
+				AAD9DEEA1BCEAF630002A74B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD9DEF91BCEAF640002A74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD9DF041BCEAF640002A74B /* AFNLocalizationIssueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD9DEFF1BCEAF640002A74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD9DEE31BCEAF630002A74B /* AFNLocalizationIssue */;
+			targetProxy = AAD9DEFE1BCEAF640002A74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD9DEF11BCEAF630002A74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD9DEF21BCEAF630002A74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD9DEF61BCEAF630002A74B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD9DEF71BCEAF630002A74B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AAD9DF111BCEB2500002A74B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD9DF101BCEB2500002A74B /* Base */,
+				AAD9DF121BCEB29D0002A74B /* es-US */,
+				AAD9DF131BCEB2A60002A74B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD9DF051BCEAF640002A74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD9DF061BCEAF640002A74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD9DF081BCEAF640002A74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFF4CB989C6A7DE5F265839 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNLocalizationIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAD9DF091BCEAF640002A74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DD77F5599A1ABABD412404 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNLocalizationIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAD9DF0B1BCEAF640002A74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFNLocalizationIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNLocalizationIssue.app/AFNLocalizationIssue";
+			};
+			name = Debug;
+		};
+		AAD9DF0C1BCEAF640002A74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFNLocalizationIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNLocalizationIssue.app/AFNLocalizationIssue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD9DEDF1BCEAF630002A74B /* Build configuration list for PBXProject "AFNLocalizationIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD9DF051BCEAF640002A74B /* Debug */,
+				AAD9DF061BCEAF640002A74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD9DF071BCEAF640002A74B /* Build configuration list for PBXNativeTarget "AFNLocalizationIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD9DF081BCEAF640002A74B /* Debug */,
+				AAD9DF091BCEAF640002A74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD9DF0A1BCEAF640002A74B /* Build configuration list for PBXNativeTarget "AFNLocalizationIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD9DF0B1BCEAF640002A74B /* Debug */,
+				AAD9DF0C1BCEAF640002A74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD9DEDC1BCEAF630002A74B /* Project object */;
+}
